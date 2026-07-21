@@ -1,13 +1,23 @@
-import React from 'react'
+import Navbar from './components/Navbar.jsx'
+import Hero from './components/Hero.jsx'
+import UpcomingEvents from './components/UpcomingEvents.jsx'
+import Categories from './components/Categories.jsx'
+import OrganizerSection from './components/OrganizerSection.jsx'
+import Contact from './components/Contact.jsx'
+import Footer from './components/Footer.jsx'
 
-function App() {
+export default function App() {
   return (
     <>
-      <h2>Rahul Tiwari</h2>
-      <p>MCA Student</p>
-      <p>MERN STACK || Backend Developer</p>
+      <Navbar />
+      <main>
+        <Hero />
+        <UpcomingEvents />
+        <Categories />
+        <OrganizerSection />
+        <Contact />
+      </main>
+      <Footer />
     </>
   )
 }
-
-export default App
