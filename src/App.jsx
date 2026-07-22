@@ -1,12 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
 import Hero from "./components/Hero";
 import UpcomingEvents from "./components/UpcomingEvents";
 import Categories from "./components/Categories";
 import OrganizerSection from "./components/OrganizerSection";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 
 import Login from "./pages/Login";
 import Register from "./pages/Register";
